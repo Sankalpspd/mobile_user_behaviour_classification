@@ -34,7 +34,7 @@ Key insights from EDA:
 - Device model and OS show minor influence.  
 - Created ratio-based features to capture efficiency metrics per app and per hour.  
 
-#
+
 Visualizations include:
 
 - Distribution of features by user class  
@@ -47,7 +47,7 @@ Feature Engineering & Preprocessing
 - Categorical features were encoded with OneHotEncoder (OS, Gender) and OrdinalEncoder (Age Group).  
 - Ensured no data leakage between train and test sets.  
 
-#Modeling
+Modeling
 
 Two models were trained and compared:
 
