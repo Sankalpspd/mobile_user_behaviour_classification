@@ -25,7 +25,8 @@ The dataset contains information about mobile users, including:
 
 - Rows: 700 
 
-#Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA)
+
 Key insights from EDA:
 
 - Usage-related features (app time, screen-on time, data usage) have monotonic trends across user classes.  
@@ -33,16 +34,21 @@ Key insights from EDA:
 - Device model and OS show minor influence.  
 - Created ratio-based features to capture efficiency metrics per app and per hour.  
 
-#Visualizations include: 
+#
+Visualizations include:
+
 - Distribution of features by user class  
 - Bar plots and stacked charts for categorical relationships  
 
-#Feature Engineering & Preprocessing
+
+Feature Engineering & Preprocessing
+
 - Numerical features were standardized using StandardScaler.  
 - Categorical features were encoded with OneHotEncoder (OS, Gender) and OrdinalEncoder (Age Group).  
 - Ensured no data leakage between train and test sets.  
 
 #Modeling
+
 Two models were trained and compared:
 
 1. Logistic Regression (multinomial, lbfgs solver)  
